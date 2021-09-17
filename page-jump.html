@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSONG</title>
+    <title></title>
 </head>
 <style>
     * {
@@ -24,7 +24,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background: url(https://pic.imgdb.cn/item/614491f22ab3f51d9125a583.jpg) no-repeat center center / cover;
+        background: url() no-repeat center center / cover;
     }
 
     .body-container {
@@ -74,14 +74,14 @@
         <div class="explanation">
             网站已迁移，将在<span id="second"></span>秒后跳转到新站，未跳转可以点击下方按钮。
         </div>
-        <a id="btn-jump" href="https://www.gegexiaoyan.com/">跳转</a>
+        <a id="btn-jump" href="">跳转</a>
     </div>
 </body>
 
 <script>
     // 5秒后跳转
     setTimeout(function () {
-        location.href = "https://www.gegexiaoyan.com/";
+        location.href = "";
     }, 5000);
     // 页面秒数显示改变
     let setIntervalFun = null;
